@@ -1,0 +1,51 @@
+Comandos que se utilizam no Git Bash e no PowerShell/Terminal
+
+
+
+git config --list             Mostra vários dados e o nome, email, senha, etc
+git config --global user.name "nome"        Adiciona um nome ao --list
+git config --global user.email "email"      Adiciona um email ao --list
+git config --global user.password "senha"   Adiciona uma senha ao --list
+git config --global --unset--all user = Tira o que você quiser, senhas, nomes, ou o email.
+git clone (link)     Copia o repositório
+
+
+
+git status         Mostra o estado atual do repositório da pasta e dos arquivos
+git add            Adiciona um arquivo ou pasta feita manualmente ao repositório do GitHub
+git commit -m      Registra um ponto no tempo do seu projeto
+git push           Envia o que foi salvo no commit para o GitHub
+git pull           Ele salva as mudanças que aconteceram
+git init           Inicia o repositório
+
+
+
+cd    		"Entra em uma pasta"
+cd..  		"Volta para a pasta passada"
+cd~    		"Vai para a pasta inicial"
+cp     		"Copia o que foi escolhido"
+rm -r    	"Exclui o arquivo ou pasta escolhido"
+mv    		"Move o diretório para outro lugar ou o renomeia"
+cls/clear  	"Limpa a tela do terminal"
+pwd   		"Mostra o caminho atual"
+ls     		"Mostra arquivos, pastas e diretórios"
+mkdir  		"Cria um novo diretório"
+echo  		 "Mostra o texto escolhido"
+rmdir  		"Apaga um diretório"
+cd/    		"Volta ao primeiro disco"
+explorer   	"Abre pasta do Windows"
+tree  	 	"Busca subpastas que existem"
+dir    		"Mostra os arquivos, diretórios, etc do diretório escolhido"
+date  	 	"Mostra data e hora"
+ctrl + c  	 "Cancela comando em execução"
+ctrl 1    	"Atalho para limpar a tela"
+ls -la  	"Mostra tudo, até itens ocultos"
+ping google.com "Testa conexão com internet"
+sfc/scannow    	"Analisa a memória e a resolve se estiver falha".
+chkdsk      	"Verifica e corrige o disco usando o /f e o /r"
+cleanmgr    	"Remove arquivos temporários, limpa cache temporário e limpa a lixeira"
+regedit     	"Abre o Editor de Registro, lugar onde fica configurações internas do Windows"
+touch arquivo.txt "Cria um arquivo vazio"
+edit   		"Edita arquivos de texto"
+cat arquivo.txt "Mostra conteúdo"
+find . -name "arquivo.txt"    "Procura arquivo com esse nome"
