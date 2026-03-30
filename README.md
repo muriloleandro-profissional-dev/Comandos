@@ -1,4 +1,5 @@
 # Comandos
+
 git config --list             Mostra vários dados e o nome, email, senha, etc
 git config --global user.name "nome"        Adiciona um nome ao --list
 git config --global user.email "email"      Adiciona um email ao --list
